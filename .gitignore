@@ -1,0 +1,31 @@
+node_modules/
+build/
+yarn.lock
+yarn-error.log
+.DS_Store
+
+# typescript
+*.tsbuildinfo
+
+
+# Environment variables, never commit this file
+.env
+.env.development
+.env.production
+.env.staging
+
+# VSCode & Webstorm history directories
+.history
+.idea
+.vscode
+storybook-static
+dist
+.next
+
+# Sentry Config File
+.env.sentry-build-plugin
+
+# Sentry Config File
+.env.sentry-build-plugin
+
+*storybook.log
